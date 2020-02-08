@@ -380,6 +380,13 @@ Source Software* 3 (32). <http://idl.cs.washington.edu/papers/altair>.
 
 </div>
 
+<div id="ref-png">
+
+Urbanek, Simon. 2013. *Png: Read and Write Png Images*.
+<https://CRAN.R-project.org/package=png>.
+
+</div>
+
 <div id="ref-Python">
 
 Van Rossum, Guido, and Fred L. Drake. 2009. *Python 3 Reference Manual*.
@@ -408,6 +415,21 @@ Xie, Yihui. 2014. “Knitr: A Comprehensive Tool for Reproducible Research
 in R.” In *Implementing Reproducible Computational Research*, edited by
 Victoria Stodden, Friedrich Leisch, and Roger D. Peng. Chapman;
 Hall/CRC. <http://www.crcpress.com/product/isbn/9781466561595>.
+
+</div>
+
+<div id="ref-rmarkdown">
+
+Xie, Yihui, J.J. Allaire, and Garrett Grolemund. 2018. *R Markdown: The
+Definitive Guide*. Boca Raton, Florida: Chapman; Hall/CRC.
+<https://bookdown.org/yihui/rmarkdown>.
+
+</div>
+
+<div id="ref-kableExtra">
+
+Zhu, Hao. 2019. *KableExtra: Construct Complex Table with ’Kable’ and
+Pipe Syntax*. <https://CRAN.R-project.org/package=kableExtra>.
 
 </div>
 
