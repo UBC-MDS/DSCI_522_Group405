@@ -22,6 +22,24 @@ The final report can be found [here](https://github.com/UBC-MDS/DSCI_522_Group40
 
 ## Usage
 
+#### 1. Using Docker
+
+To replicate the analysis, install [Docker](https://www.docker.com/get-started), clone this  repository and run the following command at the command line/terminal from the root directory of this project:
+
+```
+docker run --rm -v /$(pwd):/DSCI_522_Group405 vanandsh/dsci-522-group-405:latest make -C /DSCI_522_Group405 all
+```
+
+To remove intermediate and results files, run the following command at the command line/terminal from the root directory of this project:
+
+```
+docker run --rm -v /$(pwd):/DSCI_522_Group405 vanandsh/dsci-522-group-405:latest make -C /DSCI_522_Group405 clean
+```
+
+*Note: It is recommended to increase CPUs to 4 and Memory to 8 GiB in Docker preferences. Running with Docker should take around 30-45 minutes*
+
+#### 2. Without Using Docker
+
 To replicate this project, clone this GitHub repository, install the dependencies and run the command below at the command line or terminal from the root directory of this project:
 
 ```
@@ -33,6 +51,10 @@ To clean this repository to have no result or intermediate files, run the comman
 ```
 make clean
 ```
+
+## Makefile2Graph
+
+![](https://github.com/UBC-MDS/DSCI_522_Group405/blob/master/Makefile.png)
 
 ## Dependencies
 
@@ -54,6 +76,9 @@ make clean
   - reshape2==1.4.3
   - gridExtra==2.3
   - knitr==1.27.2
+  - png==0.1-7
+  - kableExtra==1.1.0
+  - rmarkdown==2.1.1
 - GNU Make 3.81  
 - ChromeDriver 79.0.3945.36  
 
